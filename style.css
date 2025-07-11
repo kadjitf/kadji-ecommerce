@@ -3,6 +3,7 @@
   padding: 0px;
   margin: 0px;
   text-decoration: none;
+  max-width: 100%;
 }
  .section{
    padding:  0px 80px;}
@@ -477,12 +478,13 @@ li a:hover{color: red;
      }
      .num2{
       background-color: black;
-      padding: 60px;
+      padding: 70px;
       height: 400px;
       width: 400px;
       position: absolute;
       top: 155px;
       right: 195px;
+      font-size: 20px;
       
      }
      .num1{
