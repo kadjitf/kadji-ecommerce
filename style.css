@@ -1,0 +1,539 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+ .section{
+   padding:  0px 80px;}
+
+   .sec{
+    padding-left: 80px;
+   }
+
+.color{
+  color: red;
+}
+.nav{
+  display: flex;
+  background-color:white;
+  
+}
+li{
+  display: inline;
+}
+ul{
+  padding: 30px 40px;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  color:  black;
+}
+.fa{
+  font-size: 18px;
+  padding: 0px 25px;
+} 
+
+.end{
+  margin-left: 95px;
+  
+}
+.b-color{
+  background: white;
+  
+}
+li a{
+  padding: 30px 30px;
+  text-decoration: none;
+  background-color: white;
+  color:  black;
+  justify-content: center;
+
+
+}
+li a:hover{color: red;
+
+}
+.logo{
+  margin-right: 50px;
+  font-style:oblique
+}
+.b-co{
+  background-color: whitesmoke;
+}
+.hero{
+  background-color: whitesmoke;
+  /* display: flex;
+  flex-direction: row; */
+}
+.button{
+  padding: 16px 16px ;
+  width: 220px;
+  color: white;
+  border: none;
+  background-color: rgb(250, 70, 70);
+  font-size: large;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.pic{
+ margin-left: 100px;
+ padding-top: 30px;
+  /* margin-left: 150px; */
+ 
+  
+}
+ .new{
+  /* display:inline-block; */
+  font-size: 18px;
+  /* flex-direction: row; */
+  display: flex;
+  padding-top: 50px;
+  flex-direction: row;
+  
+ }
+ .nop
+ {
+    font-size: 45px;
+  
+    
+ }
+ .font{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 20px 0px;
+  
+ }
+ .text{
+  padding: 40px;
+  display:inline;
+  width: 500px;
+  
+  
+
+ }
+ li a:hover{
+  background-color: black;}
+  .button:hover{
+    background-color: black;
+  }
+  .features{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 70px 30px;
+  }
+  .feature-box h4{
+    font-size: 25px;
+    padding: 10px 10px;
+  }
+  .feature-box p{
+    font-size: 18px;
+    padding:10px 10px ;
+    color: grey;
+  }
+  .fa-solid{
+   
+  }
+  .stock{
+    background-color: white;
+  }
+  .button1{
+    border: solid black;
+    color: black;
+    background: white;
+    padding: 10px 10px ;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 160px;
+    
+  }
+  .tt{
+   
+   padding-bottom: 70px;
+   padding-top: 60px;
+    /* #a52f2fhsl(0, 56%, 42%)hsl(0, 99%, 67%) */
+    
+  }
+  .button1:hover{
+
+    background-color: red;
+  }
+  .bb-color{
+    color: #5a6268;
+  }
+  .b2-color{
+    color: black;
+  }
+  td,table{
+    padding: 0px 15px;
+  }
+  .button2{
+    background-color: red;
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+    width: 65px;}
+    .button3{
+      background-color: red;
+      color: white;
+      padding: 10px 10px;
+      width: 100px;
+      font: bold;
+      border: none;
+    }
+    .articles{
+      background-color: black;
+      color: white;
+      padding: 30px;
+      padding-top:100px ;
+      text-align: center;
+      padding-bottom: 100px;
+      
+    }
+    table{
+      padding-bottom: 100px;
+    }
+    .table1{
+      padding: 30px 30px;
+    }
+    .color-red{
+      font-size: 20px;
+      background-color: black;
+      padding-bottom: 30px;
+    }
+    .color-red:hover{
+      background-color: rgb(250, 81, 81);
+      color: white;
+
+    }
+    
+    /* .hover:hover{
+      opacity: 0.5;
+    } */
+    /* .picb2{
+      background-image:url('shop-category-image-1_optimized.webp');
+      width: 380;
+      height: 510px;
+      
+    } */
+     .z-index{
+      position: relative;
+     }
+     .index1{
+      position: relative;
+      z-index: 1;
+     }
+     .index2{
+      position: absolute;
+      z-index: 2;
+      left: 5px;
+      height: 300px;
+      width: 70%;
+       top: 300px;
+       overflow: hidden;
+      
+     }
+     .pad{
+      /* justify-content: center; */
+      justify-items: baseline; 
+     }
+     .te{
+      text-align: center;
+      padding: 30px;
+     }
+     .products{
+      padding-top: 90px;
+     }
+     .index3{
+      background-color: black;
+      color: white;
+      padding: 170px;
+      font-size: 20px;
+      z-index: 1;
+      margin-top: 120px;
+      position: absolute;
+      width: 300px;
+      height: 350px;
+      left: 170px;
+     }
+     .clothes{
+      position: relative;
+      margin: 30px 0px;
+     }
+     .indexz{
+      position: relative;
+      z-index: 0;
+     }
+     .full{
+      height: 100vh;
+     }
+     .pop{
+      margin-top: 10% ;
+      height: 100vh;
+
+     }
+     .center{
+      text-align: center;
+     }
+     .back{
+      background-image: url(IMG_0089\ 2.JPG);
+      height: 40vh;
+      margin-right: 90px;
+      margin-left: 90px;
+      color: white;
+      text-align: center;
+      padding-top: 170px;
+      margin-bottom: 80px;
+      background: black;
+      
+     }
+     .placeholder{
+      width: 400px;
+      padding: 17px 17px;
+      border: none;
+      background-color: whitesmoke;
+      font-size: large;
+      color: solid black;
+     }
+     .but{
+      padding-top: 40px;
+     }
+     .final{
+      background-color: black;
+      color: white;
+      padding-top: 100px;
+      padding-bottom: 40px;
+     }
+     .co{
+      color: black;
+     }
+     .last{
+      padding-top: 60px;
+      padding-bottom: 50px;
+     }
+     .log{
+      padding-bottom: 65px;
+     }
+     .line{
+      height: 1px;
+      background-color: whitesmoke;
+      width: 1300px;
+     }
+     .lo{
+      padding-bottom: 30px;
+     }
+     .l{
+      color: white;
+      background-color: black;
+     }
+     .product-head{
+      text-align: center;
+
+     }
+     .bp{
+      background-color: whitesmoke;
+      padding-top: 60px;
+      padding-bottom: 70px;
+      
+     }
+     .table-pro{
+      padding-top: 50px;
+     }
+     .button5{
+      border-color: whitesmoke;
+      padding: 10px 10px;
+      background-color: white;
+      
+      width: 70px;
+
+     }
+     .line1{
+      width: 300px;
+      background-color: red;
+      height: 4px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      /* margin-left: 40px; */
+      border-radius: 20px;
+     }
+     .in{
+      background-color: black;
+      color: white;
+      /* padding-top: 35px;
+      padding-bottom: 35px; */
+      padding: 50px;
+      
+     }
+     .c{
+      background-color: whitesmoke;
+     }
+     .Services{
+      text-align: center;
+      padding-top: 150px;
+      background-color: whitesmoke;
+     }
+     .kad:hover{
+      background-color: red;
+     }
+     .kad{
+    
+      
+      background-color: black;
+     }
+     .logo1{
+      background-color: whitesmoke;
+      display: flex;
+      justify-content: space-around;
+      padding-bottom: 100px;
+     }
+     .p{
+      padding-bottom: 100px;
+      background-color: whitesmoke;
+     }
+     .mission{
+      background-color: whitesmoke;
+      padding-bottom: 120px;
+      display: flex;
+     }
+     .coc{
+      color: red;
+     }
+     .our{
+      margin-left: 150px;
+      margin-top: 120px;
+     }
+     .mission2{
+      background-color: whitesmoke;
+      display: flex; 
+     
+      
+      padding-bottom: 100px;
+     }
+     .mp{
+      float: right;
+       margin-left: 100px;
+       padding-bottom: 40px;
+       background-color: whitesmoke;
+      
+     }
+     .line3{
+      height: 1px;
+      width: 600px;
+      color: #5a6268;
+      background-color: #5a6268;
+     }
+     .w{
+      background: whitesmoke;
+     }
+     .about{
+      padding-top: 70px;
+      text-align: center;
+     }
+     .gg{
+      display: inline}
+     .in1{
+      background-color: black;
+      color: white;
+      z-index: 1;
+      position: relative;
+      padding: 110px;
+      text-align: center;
+     }
+     .in-main{
+      position: relative;
+      padding-bottom: 100px;
+     }
+     .in2{
+      z-index: 2;
+      position: absolute;
+      top: -140px;
+      left: 100px;
+
+     }
+     .ppc{
+      margin-bottom: 40px;
+     }
+     .shoe{
+      display: grid;
+     }
+     .ourteam{
+      background-color: whitesmoke;
+      text-align: center;
+      padding-bottom: 100px;
+     }
+     .test{
+      color: white;
+      position: relative;
+      padding-bottom: 140px;
+      
+     }
+     .n{
+      background-color: whitesmoke;
+     }
+     .num2{
+      background-color: black;
+      padding: 60px;
+      height: 400px;
+      width: 400px;
+      position: absolute;
+      top: 155px;
+      right: 195px;
+      
+     }
+     .num1{
+      position: relative;
+     }
+     .shoe{
+      display: flex;
+      justify-content: space-around;
+     }
+     .sh{
+      padding-top: 50px;
+     }
+     .c{
+      padding-bottom: 40px;
+     }
+     .ns{
+      text-align: center;
+      padding: 70px 0px;
+     }
+     .ct{
+      text-align: center;
+      /* font-size: 30px; */
+      padding-top: 140px;
+     }
+     .n{
+      font-size: 40px;
+      padding-bottom: 250px;
+  
+     }
+     .contact{
+      
+     }
+     .z{
+      position: relative;
+     }
+     .contact{
+      position: relative;
+      z-index: 1;
+     }
+     .pcc{
+      position: absolute;
+      z-index: 1;
+      top: 350px;
+      left: 100px;
+
+      background-color: rgb(241, 95, 95);
+     }
+     .place{
+      background-color: whitesmoke;
+      border: none;
+      padding: 10px 10px;
+      width: 500px;
+
+     }
