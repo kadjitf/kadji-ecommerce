@@ -12,7 +12,7 @@
     padding-left: 80px;
    }
 
-.color{
+.color{                                 
   color: red;
 }
 .nav{
@@ -282,7 +282,7 @@ li a:hover{color: red;
       text-align: center;
      }
      .back{
-      background-image: url(IMG_0089\ 2.JPG);
+      background-image: url(istockphoto-2129856121-612x612.webp);
       height: 40vh;
       margin-right: 90px;
       margin-left: 90px;
@@ -290,7 +290,7 @@ li a:hover{color: red;
       text-align: center;
       padding-top: 170px;
       margin-bottom: 80px;
-      background: black;
+      /* background: black; */
       
      }
      .placeholder{
@@ -533,9 +533,12 @@ li a:hover{color: red;
       background-color: rgb(241, 95, 95);
      }
      .place{
-      background-color: whitesmoke;
-      border: none;
+      background:transparent;
+      border: 1px solid grey;
       padding: 10px 10px;
       width: 500px;
+      outline: none;
+      color: var(--second-color);
+      border-radius: 6px;
 
      }
